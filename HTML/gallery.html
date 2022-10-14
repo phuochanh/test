@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pooch Care</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- BS4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT GG -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="../CSS/gallery.css" />
+  </head>
+  <body id="myBody">
+    <div class="header fixed-top" id="site-header">
+      <div class="container">
+        <div class="header__all navbar">
+          <h1>Pooch Care</h1>
+          <div class="nav">
+            <ul class="navigation">
+              <li><a href="./index.html" class=" scroll">Home</a></li>
+              <li><a href="./about.html" class="scroll">About</a></li>
+              <li><a href="./services.html" class="scroll">Services</a></li>
+              <li><a href="./gallery.html" class="scroll header__home">Gallery</a></li>
+              <li class="nav-link dropdown">
+                <a
+                  href="#"
+                  id="navbarDropdown1"
+                  role="button"
+                  aria-expanded="false"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  class="scroll"
+                  >Blog
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <a class="dropdown-item scroll" href="#">Blog Posts</a>
+                  <a class="dropdown-item scroll" href="./blogsingle.html">Blog Single</a>
+                  <a class="dropdown-item scroll" href="./ladingpage.html">Landing Page</a>
+                </div>
+              </li>
+              <li><a href="#addredd" class="scroll">Contact</a></li>
+            </ul>
+            <div id="toggle">
+              <i class="fa-solid fa-bars bars"></i>
+            </div>
+          </div>
+          <button class="moon__light" id="switchButton" title="Click to switch theme">
+            <i class="fa-regular fa-moon"></i>
+            <i class="fa-regular fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="carousel">
+      <div class="carousel__content py-5 py-4">
+        <div class="container py-4">
+          <h2>Gallery</h2>
+          <ul class="mt-2">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span> Gallery
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="latest py-5">
+      <div class="latest__content py-3">
+        <div class="container">
+          <div class="latest__top text-center">
+            <h6>VIEW GALLERY</h6>
+            <h3>Latest Gallery</h3>
+          </div>
+          <div class="latest__bottom row">
+            <div class="col-md-4 col-12">
+              <a href="../Image/g1.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g1.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+              <a href="../Image/g2.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g2.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+              <a href="../Image/g7.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g7.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+            </div>
+            <div class="col-md-4 col-12">
+              <a href="../Image/g3.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g3.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+              <a href="../Image/g4.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g4.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+              <a href="../Image/g8.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g8.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+            </div>
+            <div class="col-md-4 col-12">
+              <a href="../Image/g5.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g5.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+              <a href="../Image/g6.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g6.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+              <a href="../Image/g9.jpg" class="mb-4 d-block">
+                <figure>
+                  <img src="../Image/g9.jpg" alt="" class="img-fluid" />
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer pt-5">
+      <footer>
+        <div class="container py-3 pb-0">
+          <div class="footer__top">
+            <div class="row">
+              <div class="col-md-6 col-12 footer__left">
+                <h6>Contact information</h6>
+                <ul>
+                  <li>
+                    <strong>Address</strong> : #135 block, Barnard St. Brooklyn,
+                    London 10036, UK
+                  </li>
+                  <li>
+                    <strong>Phone :</strong><a href="#"> +(12)234-11-24</a>
+                  </li>
+                  <li>
+                    <strong>Email :</strong><a href="#"> example@mail.com</a>
+                  </li>
+                </ul>
+                <div class="footer__icon mt-3">
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-dribbble"></i></li>
+                  <li><i class="fa-brands fa-google"></i></li>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 footer__right">
+                <div class="row">
+                  <div class="col-sm-4 col-6">
+                    <h6>Company</h6>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Blog Posts</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Pricing</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 col-6">
+                    <h6>Quick Links</h6>
+                    <ul>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Create account</a></li>
+                      <li><a href="#">Care Center</a></li>
+                      <li><a href="#">Site Feedack</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 col-6 pt-sm-0 pt-4">
+                    <h6>Support</h6>
+                    <ul>
+                      <li><a href="#">All Dogs</a></li>
+                      <li><a href="#">Care Advices</a></li>
+                      <li><a href="#">Care Support</a></li>
+                      <li><a href="#">Veterinary Help</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom py-3 mt-5">
+          <p>
+            © 2020 Pooch Care. All Rights Reserved. Design by
+            <a href="#">W3Layouts</a>
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Move top     -->
+    <button
+      onclick="topFunction()"
+      id="movetop"
+      title="Go to top"
+      style="display: block"
+    >
+      ⤴
+    </button>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!-- JQUERY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- BS4 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MENU JS -->
+    <script>
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+        $(".header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $(".header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            $(".header").removeClass("active");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            $("header").removeClass("active");
+          }
+        });
+      });
+    </script>
+    <!-- TOGGLE -->
+    <script>
+      let navigation = document.querySelector(".navigation");
+      let toggle = document.querySelector("#toggle");
+      let header__all = document.querySelector(".header__all");
+
+      toggle.onclick = function () {
+        header__all.classList.toggle("open");
+      };
+    </script>
+    <!-- DARK LIGHT -->
+    <script>
+      /**
+Solution: 
+Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+Dựa vào class dark, ta viết css dành riêng cho dark theme.
+
+Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+
+*/
+
+      //gọi thẻ button có id là switchButton
+      // gắn chức năng click cho switchButton
+      document.getElementById("switchButton").onclick = function () {
+        //khi button được click thì tìm đến thẻ body có id là myBody
+        // dùng classlist để gọi thuộc tính class của thẻ body
+        //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+        document.getElementById("myBody").classList.toggle("dark");
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pooch Care</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- BS4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT GG -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="../CSS/blogsingle.css" />
+  </head>
+  <body id="myBody">
+    <div class="header fixed-top" id="site-header">
+      <div class="container">
+        <div class="header__all navbar">
+          <h1>Pooch Care</h1>
+          <div class="nav">
+            <ul class="navigation">
+              <li><a href="#" class=" scroll">Home</a></li>
+              <li><a href="#about" class="scroll">About</a></li>
+              <li><a href="#walking" class="scroll">Services</a></li>
+              <li><a href="#our" class="scroll">Gallery</a></li>
+              <li class="nav-link dropdown">
+                <a
+                  href="#"
+                  id="navbarDropdown1"
+                  role="button"
+                  aria-expanded="false"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  class="scroll header__home"
+                  >Blog
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <a class="dropdown-item scroll" href="./blogsingle.html">Blog Posts</a>
+                  <a class="dropdown-item scroll" href="./blogsingle.html">Blog Single</a>
+                  <a class="dropdown-item scroll" href="./ladingpage.html">Landing Page</a>
+                </div>
+              </li>
+              <li><a href="#addredd" class="scroll">Contact</a></li>
+            </ul>
+            <div id="toggle">
+              <i class="fa-solid fa-bars bars"></i>
+            </div>
+          </div>
+          <button class="moon__light" id="switchButton" title="Click to switch theme">
+            <i class="fa-regular fa-moon"></i>
+            <i class="fa-regular fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="carousel">
+      <div class="carousel__content py-5 py-4">
+        <div class="container py-4">
+          <h2>Blog Posts</h2>
+          <ul class="mt-2">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-arrow-right"></i></span> Single Post
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="blog__single1 text-center py-5">
+        <div class="container pt-5">
+          <div class="reader">
+            <ul>
+              <li class="tag">Pooch Care</li>
+            </ul>
+            <h3 class="mt-3">
+              It is a long established fact a reader be <br />distracted
+            </h3>
+            <ul class="mb-3 pb-3 mt-3">
+              <li><i class="fa-regular fa-clock"></i> May 24 2020</li>
+              <li><i class="fa-solid fa-user"></i> By admin</li>
+              <li>
+                <i class="fa-regular fa-heart"></i> <strong>48</strong> likes
+              </li>
+              <li>
+                <i class="fa-regular fa-comments"></i>
+                <strong>12</strong> comments
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog__image container">
+          <img src="../Image/banner4.jpg" alt="" class="img-fluid" />
+        </div>
+        <div class="container">
+          <div class="blog__text text-left pb-5">
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Repellat, hic
+              reprehenderit eum cupiditate deleniti asperiores illum ad tenetur
+              aliquam culpa fugit odit consequatur. Rerum illo accusantium
+              aliquid quae adipisci fugiat sapiente delectus unde architecto.
+              Tempore saepe maxime illo laborum obcaecati.
+            </p>
+            <div class="text__img row mt-5">
+              <div class="col-md-4 col-12">
+                <img src="../Image/g1.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-md-8 col-12 text__imagerps">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum perspiciatis repellendus velit nam fuga asperiores
+                  nemo commodi enim corrupti est tenetur placeat veritatis,
+                  dolores laborum illo, ducimus aut suscipit voluptate quo amet
+                  ratione magni nesciunt? Fuga expedita earum veritatis optio
+                  dolorum deserunt eos. Non in temporibus similique quibusdam
+                  nihil qui, consequatur, debitis ipsa aperiam dicta possimus
+                  itaque unde hic, voluptatum expedita.
+                </p>
+              </div>
+            </div>
+            <p class="mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+              beatae ullam expedita. Ut explicabo minima fugit ipsum sapiente
+              fuga et facere est autem iste ducimus totam accusamus quasi
+              distinctio, excepturi voluptatum harum porro nostrum nemo iusto
+              culpa expedita cupiditate omnis. Animi iusto officiis at
+              voluptates vel laboriosam eum error voluptas. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__single2">
+        <div class="container">
+          <div class="text__single2 blockquote">
+            <q class="lorem mb-3 d-block"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              nam, quos facere dolor repellendus odio. Voluptatum provident
+              quasi necessitatibus laboriosam alias.
+            </q>
+            <p class="footer__single2">Alexander smith</p>
+          </div>
+        </div>
+      </div>
+      <div class="blog__single3">
+        <div class="container">
+          <div class="blog__single3Top">
+            <h3>
+              <a href="#"
+                >It is a long established fact a reader be distracted.</a
+              >
+            </h3>
+            <p class="mb-5">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              nam, quos facere dolor repellendus odio. Voluptatum provident
+              quasi necessitatibus laboriosam alias dicta quis voluptate minus
+              minima dolorum quod, quaerat modi veritatis libero! Culpa facilis
+              enim optio veniam voluptas. Laudantium explicabo optio quam ea
+              deleniti odio totam adipisci illo, enim quos corrupti. Animi
+              labore natus at quas laborum. Soluta, nam molestiae.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Provident, tenetur amet. Quibusdam nemo aut ut non aliquam nam est
+              quae aspernatur repellendus illo id earum ipsa debitis saepe
+              maiores quasi voluptate, sunt reiciendis voluptatibus veniam
+              pariatur? Tempore laudantium libero adipisci.
+            </p>
+            <div class="text__image row mt-5 no-gutters">
+              <div class="col-md-4 col-12">
+                <img src="../Image/g2.jpg" alt="" class="img-fluid mt-3" />
+              </div>
+              <div class="col-md-8 col-12">
+                <p class="ml-md-4 ml-0 text__imagerpv1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi necessitatibus error dolore dolorem, aut possimus libero
+                  saepe doloremque sequi consequatur non veritatis velit amet
+                  eligendi dolorum aspernatur sit laudantium quidem enim minima
+                  totam, ratione sunt? Quis esse laborum magnam dolorem
+                  excepturi fuga consequatur a cumque incidunt aspernatur, quod
+                  laudantium sunt assumenda labore. Adipisci deserunt animi
+                  reiciendis reprehenderit quam assumenda.
+                </p>
+              </div>
+            </div>
+            <div class="text__image row no-gutters">
+              <div class="col-md-8 col-12">
+                <p class="mt-4 mr-4 mb-0">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, qui? Saepe necessitatibus hic, nemo eveniet
+                  tempore perspiciatis quo nisi tenetur nesciunt delectus animi
+                  aperiam dolore fugiat, minus veniam. Expedita provident qui
+                  quia voluptas doloremque sed ex possimus dolores ea, quos enim
+                  facilis autem vel asperiores beatae quidem eaque! Nihil
+                  veritatis quo, fugit eligendi magnam officia hic libero iure
+                  amet consequatur sit qui asperiores inventore temporibus!
+                </p>
+              </div>
+              <div class="col-md-4 col-12">
+                <img src="../Image/g3.jpg" alt="" class="img-fluid mt-4" />
+              </div>
+            </div>
+            <ul class="mt-4 blog__icon">
+              <li>
+                <h4 class="mr-4">Share this post :</h4>
+              </li>
+              <li class="facebook">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li class="twitter">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="instagram">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="blog__single3Bottom row mt-5 py-4">
+            <div class="bottom__left col-6">
+              <span>
+                <i class="fa-solid fa-angles-left"></i>
+                Prev Post
+              </span>
+              <a href="#" class="aFirst">
+                <img src="../Image/g9.jpg" alt="" class="img-fluid" />
+                <label>Lorem ipsum dolor sit amet</label>
+              </a>
+            </div>
+            <div class="bottom__right col-6 text-right">
+              <span>
+                Next Post
+                <i class="fa-solid fa-angles-right"></i>
+              </span>
+              <a href="#" class="aLast">
+                <label class="d-inline-blocl">Lorem ipsum dolor sit amet</label>
+                <img src="../Image/g8.jpg" alt="" class="img-fluid" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comment py-5">
+      <div class="comment__content">
+        <div class="container">
+          <div class="comment__contact">
+            <h3>Recent Comments</h3>
+            <div class="comment__item">
+              <div class="img__comment">
+                <img src="../Image/f1.jpg" alt="" />
+              </div>
+              <div class="media__comment">
+                <h5>Alisa larden</h5>
+                <span>18 minutes ago</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, officiis rerum assumenda facere maxime accusamus cum.
+                  Numquam harum vitae id. Nemo qui fugiat nam quasi?
+                </p>
+                <a href="#">Reply</a>
+                <div class="media mt-4">
+                  <div class="media__left">
+                    <img src="../Image/f2.jpg" alt="" />
+                  </div>
+                  <div class="media__right">
+                    <h5>Maxwell ker</h5>
+                    <span>4 hours ago</span>
+                    <p>
+                      In gravida nulla. Nulla vel metus scelerisque ante
+                      sollicitudin. Cras purus odio. Fusce condimentum nunc ac
+                      nisi vulputate fringilla. Donec lacinia felis in .
+                    </p>
+                    <a href="#">Reply</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comment__item">
+              <div class="img__comment">
+                <img src="../Image/f3.jpg" alt="" />
+              </div>
+              <div class="media__comment">
+                <h5>Tony Elisa</h5>
+                <span>16 hours ago</span>
+                <p>
+                  Facere atque minus necessitatibus deserunt quibusdam voluptas
+                  quo? Omnis temporibus at, reprehenderit exercitationem dolores
+                  fuga, iste quidem earum nihil iusto repellendus. Assumenda
+                  alias illo dignissimos corrupti doloribus. Tenetur architecto
+                  rerum.
+                </p>
+                <a href="#">Reply</a>
+              </div>
+            </div>
+            <div class="comment__item">
+              <div class="img__comment">
+                <img src="../Image/f4.jpg" alt="" />
+              </div>
+              <div class="media__comment">
+                <h5>Elizabeth mark</h5>
+                <span>Yerterday</span>
+                <p>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio. Fusce
+                  condimentum nunc ac nisi vulputate fringilla. Donec felis in
+                  faucibus.
+                </p>
+                <a href="#">Reply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="posts">
+      <div class="posts__contact py-3">
+        <div class="container">
+          <div class="posts__content">
+            <div class="posts__header">
+              <h3 class="comment">Related posts</h3>
+            </div>
+            <div class="row comment">
+              <div class="col-md-6 col-12 mt-md-0 mt-5 col__item">
+                <div class="row__top">
+                  <img src="../Image/g3.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="row__bottom">
+                  <a href="#">Lorem ipsum dolor sit amet </a>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                    eligendi vitae sit.
+                  </p>
+                  <div class="smith align-item-center mt-3 mb-1">
+                    <a href="#">Johnson smith</a>
+                    <span>- May 23, 2020</span>
+                  </div>
+                  <ul>
+                    <li><i class="fa-solid fa-comment"></i> 30 comments</li>
+                    <li><i class="fa-solid fa-eye"></i> 30 Views</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 mt-md-0 mt-5 col__item">
+                <div class="row__top">
+                  <img src="../Image/g4.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="row__bottom">
+                  <a href="#">Lorem ipsum dolor sit amet </a>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                    eligendi vitae sit.
+                  </p>
+                  <div class="smith align-item-center mt-3 mb-1">
+                    <a href="#">Johnson smith</a>
+                    <span>- May 23, 2020</span>
+                  </div>
+                  <ul>
+                    <li><i class="fa-solid fa-comment"></i> 30 comments</li>
+                    <li><i class="fa-solid fa-eye"></i> 30 Views</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="leave py-5">
+      <div class="leave__content py-3">
+        <div class="container">
+          <div class="leave__contact">
+            <h3>Leave a reply</h3>
+            <form action="#">
+              <div class="leave__for">
+                <div class="leave__item">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Your Name*"
+                  />
+                </div>
+                <div class="leave__item">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Email Address*"
+                  />
+                </div>
+                <div class="leave__item">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="Subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="leave__item">
+                  <input
+                    type="phone"
+                    class="form-control"
+                    name="phone"
+                    placeholder="phone"
+                  />
+                </div>
+              </div>
+              <div class="mt-4">
+                <textarea placeholder="Your Message*"></textarea>
+              </div>
+              <div class="leave__button mt-4 text-right">
+                <button class="btn-primary">Add Comment</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer pt-5">
+      <footer>
+        <div class="container py-3">
+          <div class="footer__top">
+            <div class="row footer__toprps">
+              <div class="col-md-6 col-12 pt-md-0 pt-5 footer__left">
+                <h6>Contact information</h6>
+                <ul>
+                  <li>
+                    <strong>Address</strong> : #135 block, Barnard St. Brooklyn,
+                    London 10036, UK
+                  </li>
+                  <li>
+                    <strong>Phone :</strong><a href="#"> +(12)234-11-24</a>
+                  </li>
+                  <li>
+                    <strong>Email :</strong><a href="#"> example@mail.com</a>
+                  </li>
+                </ul>
+                <div class="footer__icon mt-3">
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-dribbble"></i></li>
+                  <li><i class="fa-brands fa-google"></i></li>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 pt-md-0 pt-5 footer__right">
+                <div class="row">
+                  <div class="col-sm-4 col-6">
+                    <h6>Company</h6>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Blog Posts</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Pricing</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 col-6 class footer__rightrpv">
+                    <h6>Quick Links</h6>
+                    <ul>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Create account</a></li>
+                      <li><a href="#">Care Center</a></li>
+                      <li><a href="#">Site Feedack</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 col-6 class footer__rightrpv pt-md-0 pt-4">
+                    <h6>Support</h6>
+                    <ul>
+                      <li><a href="#">All Dogs</a></li>
+                      <li><a href="#">Care Advices</a></li>
+                      <li><a href="#">Care Support</a></li>
+                      <li><a href="#">Veterinary Help</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom py-3 mt-5">
+          <p>
+            © 2020 Pooch Care. All Rights Reserved. Design by
+            <a href="#">W3Layouts</a>
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Move top     -->
+    <button
+      onclick="topFunction()"
+      id="movetop"
+      title="Go to top"
+      style="display: block"
+    >
+      ⤴
+    </button>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!-- JQUERY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- BS4 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MENU JS -->
+    <script>
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+        $(".header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $(".header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            $(".header").removeClass("active");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            $("header").removeClass("active");
+          }
+        });
+      });
+    </script>
+    <!-- TOGGL -->
+    <script>
+      let navigation = document.querySelector(".navigation");
+      let toggle = document.querySelector("#toggle");
+      let header__all = document.querySelector(".header__all");
+
+      toggle.onclick = function () {
+        header__all.classList.toggle("open");
+      };
+    </script>
+    <script>
+      /**
+Solution: 
+Khi click vào nút moon 🌙 , thẻ body sẽ được thêm class dark.
+Dựa vào class dark, ta viết css dành riêng cho dark theme.
+
+Ngược lại, khi click vào nút sun ☀️, ta sẽ xóa class dark để css light theme hiện lại
+
+*/
+
+      //gọi thẻ button có id là switchButton
+      // gắn chức năng click cho switchButton
+      document.getElementById("switchButton").onclick = function () {
+        //khi button được click thì tìm đến thẻ body có  id là myBody
+        // dùng classlist để gọi thuộc tính class của thẻ body
+        //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+        document.getElementById("myBody").classList.toggle("dark");
+      };
+    </script>
+  </body>
+</html>
