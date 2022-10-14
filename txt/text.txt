@@ -1,0 +1,5 @@
+Thông tin nhóm và cách phần đã làm
+1. Cao Phước Hạnh
+- Hoàn thành 3 trang: index, about, services
+2. Cao Thành Đạt
+- Hoàn thành 3 trang: gallery, landingpage, blogsingle
